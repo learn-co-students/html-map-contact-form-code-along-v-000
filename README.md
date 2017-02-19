@@ -92,17 +92,9 @@ Let's fill in the rest of our inputs.
 
 ```html
 <!-- Contact Form -->
-<form action="#" method="post">
-  <label for="fullname">Name</label>
-  <input type="text" id="fullname" name="fullname" placeholder="your name" required>
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" placeholder="your email" required>
-  <label for="phone">Phone</label>
-  <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="10"></textarea>
-  <input type="submit" value="send">
-</form>
+<br>
+
+
 ```
 
 The `type` attribute as "text" vs "email" will be recognized by the browser so that when a type of email is also required it will validate for you whether the input matches an email including the "@" this is a feature brought to us as part of HTML version 5. Additonally the type of "tel" will bring up the numeric pad on mobile devices where as the type of "text" will bring up the alphabet keypad. This support varies from device to device though.
