@@ -18,6 +18,20 @@
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12091.46768749283!2d-73.99097479999999!3d40.742953699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1501798063471" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
   <!--Contact Form -->
+  <form action="#" method="post">
+    <label for="fullname">Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your Name Here" required>
+    <!-- To make relationships, use the 'for' and 'ID' fields in label and input tags (respectively) -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@email.org" required>
+    <!-- in HTML5, there is email validation for input type = email -->
 
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder='555-555-5555'>
+
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" rows="8" cols="80"> LOVE YOUR SITE! </textarea>
+    <input type="submit" value="Send">
+  </form>
 </body>
 </html>
