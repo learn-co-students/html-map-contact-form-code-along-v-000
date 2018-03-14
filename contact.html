@@ -13,6 +13,31 @@
   <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
 
   <h3>Contact</h3>
-  
+
+  <!-- Map -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12099.935021506128!2d-73.9923279820447!3d40.69635541388808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY%2C+USA!5e0!3m2!1sen!2smx!4v1501121280299" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <!-- Contact Form -->
+  <!-- Method = post because want to post information up to server -->
+<form action ="#" method="post">
+<label for="fullname">Name</label>
+<!-- for allows you to associate the label Name with the input -->
+<!-- id creates an identity for the input that will match up with the label -->
+<!-- name creates the name of the variable for the info typed into the field -->
+
+<input type="text" id="fullname" name= "fullname" placeholder="your name" required>
+<label for="email">Email</label>
+<!-- each input has a type set -->
+<!-- validates as email if required and brings up @ symbol on certain mobile devices -->
+<input type="email" id="email" name= "email" placeholder="your email" required>
+<label for="phone">Phone</label>
+<!-- tel = when someone clicks in mobile device it brings up numeric keyboard for a phone!-->
+<input type="tel" id="phone" name= "phone" placeholder="your phone number (optional)">
+<label for="message">Message</label>
+<!-- text are gives a block of multiple lines one can type into -->
+<textarea id="message" name="message" rows="10"></textarea>
+<!-- submission button -->
+<input type ="submit" value="send">
+</form>
+
 </body>
 </html>
