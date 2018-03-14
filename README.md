@@ -26,9 +26,7 @@ Then open the contact.html page in your code editor. Under the `<h3>Contact</h3>
 ```html
 <h3>Contact</h3>
 
-<!-- Map -->
 
-<!-- Contact Form -->
 
 ```
 
