@@ -13,6 +13,25 @@
   <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
 
   <h3>Contact</h3>
+
+  <form action='#' method='post'>
+    <!--Adding the for attribute allows for clicking on label to enter input-->
+    <label for='fullname'>Name</label>
+    <input type='text' name='fullname' id='fullname' placeholder='put your name here' required>
+
+    <!--Supporting devices will bring up special keyboard-->
+    <label for='email'>Email</label>
+    <input type='email' name='email' id='email' placeholder='your email' required>
+
+    <!--Supporting devices will bring up special keyboard-->
+    <label for='phone'>Phone</label>
+    <input type='tel' name='phone' id='phone' placeholder='123-4567'>
+
+    <label for='message'>Message</label>
+    <textarea name='message' id='message'></textarea>
+
+    <input type='submit' value='send'>
+  </form>
   
 </body>
 </html>
