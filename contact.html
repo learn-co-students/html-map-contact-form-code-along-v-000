@@ -13,6 +13,26 @@
   <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
 
   <h3>Contact</h3>
-  
+
+ <!-- Map -->
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193746.90108308673!2d-74.08508292349799!3d40.64541987784399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C+NY!5e0!3m2!1sen!2sus!4v1486142221516" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<!-- Contact Form -->
+
+<!-- On line 3 we use a `<label>` element to create a text label associated with the form input. By using the `for` attribute set on the label to match the value of the `id` attribute in the input this ties the label to the input so that if a user clicks on the text of the label "Name" it will select the input next to it. You can test this on the example below: -->
+
+<form action="#" method="post">
+	<label for="fullname">Name</label>
+	<input type="text" id="fullname" name="fullname" placeholder="your name" required style="border:1px solid blue;padding:5px;">
+	<label for="email">Email</label>
+	<input type="text" id="email" name="email" placeholder="your email" required style = "border:1px solid blue; padding:5px;">
+	<label for="phone">Phone</label>
+	<input type="tel" id="phone" name="phone" placeholder="your phone #" optional style="border:1px solid blue; padding: 5px;">
+	<textarea id="message" name="message" rows="10" style="border:1px solid black; display:block; padding:5px;"></textarea>
+	<input type="submit" value="send">
+
+</form>
+
 </body>
 </html>
