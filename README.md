@@ -1,5 +1,10 @@
 # HTML Map and Contact Form Code-along
 
+## Note 
+See git repository /Jirles/exceptional-realty.git to see this work. 
+
+This repo is only here because it had to be submitted to 'pass' the lab.
+
 ## Objectives
 
 1. Embed Google Map as an iframe
