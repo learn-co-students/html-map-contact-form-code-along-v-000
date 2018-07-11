@@ -7,8 +7,7 @@
 
 ## Introduction
 
-Building upon previous code alongs, in this exercise you will add an embedded
-iframe map by coding along with the video provided, reviewing the concepts you
+with the video provided, reviewing the concepts you
 were introduced to in the previous lessons. This lesson, along with the next
 set of lessons, has starter code available, so you will be able to follow each
 video with the content provided.
